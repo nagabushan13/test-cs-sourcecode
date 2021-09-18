@@ -4,7 +4,7 @@ biggest()
 {
         int A, B, C;
 
-        printf("Enter the numbers A, B and C: ");
+        printf("\n Enter the numbers A, B and C: ");
         scanf("%d %d %d", &A, &B, &C);
 
         if (A >= B && A >= C)
