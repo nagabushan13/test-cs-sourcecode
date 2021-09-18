@@ -1,5 +1,5 @@
 #include<stdio.h>
-factorial.c()
+factorial()
 {
  int i,fact=1,number;
  printf("Enter a number: ");
@@ -7,6 +7,6 @@ factorial.c()
     for(i=1;i<=number;i++){
       fact=fact*i;
   }
-  printf("Factorial of %d is: %d",number,fact);
-return 0;
+  printf("\n Factorial of %d is: %d \n",number,fact);
+//return 0;
 }
